@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_height
+    - paragraphs.paragraphs_type.kingly_paragraph_hero
+id: paragraph.kingly_paragraph_hero.field_hero_height
+field_name: field_hero_height
+entity_type: paragraph
+bundle: kingly_paragraph_hero
+label: Height
+description: 'Select the desired height for the hero section.'
+required: true
+translatable: false
+default_value:
+  -
+    value: md
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.hero
+label: Hero
+description: 'View mode for media entities used as hero backgrounds.'
+targetEntityType: media
+cache: true

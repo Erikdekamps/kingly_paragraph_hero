@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: hero_1280w
+label: 'Hero (1280w)'
+effects:
+  3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a:
+    uuid: 3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1280
+      height: 720
+      crop_type: focal_point
+  4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:
+    uuid: 4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

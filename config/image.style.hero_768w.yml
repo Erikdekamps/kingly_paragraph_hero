@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: hero_768w
+label: 'Hero (768w)'
+effects:
+  1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e:
+    uuid: 1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      crop_type: focal_point
+  2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f:
+    uuid: 2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

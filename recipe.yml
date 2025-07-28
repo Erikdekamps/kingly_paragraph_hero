@@ -1,0 +1,12 @@
+name: 'Kingly Hero Paragraph'
+type: 'Site'
+description: 'Configures a responsive, full-width hero paragraph with an SDC.'
+recipes:
+  - kingly_paragraph_media
+install:
+  - paragraphs
+  - link
+  - options
+  - responsive_image
+config:
+  strict: false

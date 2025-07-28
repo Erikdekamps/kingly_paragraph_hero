@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.hero
+    - field.field.paragraph.kingly_paragraph_hero.field_hero_background_image
+    - field.field.paragraph.kingly_paragraph_hero.field_hero_cta
+    - field.field.paragraph.kingly_paragraph_hero.field_hero_height
+    - field.field.paragraph.kingly_paragraph_hero.field_hero_subtitle
+    - field.field.paragraph.kingly_paragraph_hero.field_hero_title
+    - paragraphs.paragraphs_type.kingly_paragraph_hero
+  module:
+    - entity_reference_revisions
+id: paragraph.kingly_paragraph_hero.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_hero
+mode: default
+content:
+  field_hero_background_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: hero
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_hero_cta: true
+  field_hero_height: true
+  field_hero_subtitle: true
+  field_hero_title: true
+  search_api_excerpt: true

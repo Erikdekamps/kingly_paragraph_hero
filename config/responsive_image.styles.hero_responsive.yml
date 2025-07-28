@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hero_500w
+    - image.style.hero_768w
+    - image.style.hero_1280w
+    - image.style.hero_1920w
+  theme:
+    - kingly_minimal
+id: hero_responsive
+label: 'Hero (Responsive)'
+image_style_mappings:
+  - image_mapping_type: image_style
+    image_mapping: hero_1920w
+    breakpoint_id: kingly_minimal.xl
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: hero_1280w
+    breakpoint_id: kingly_minimal.lg
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: hero_768w
+    breakpoint_id: kingly_minimal.md
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: hero_500w
+    breakpoint_id: kingly_minimal.sm
+    multiplier: 1x
+breakpoint_group: kingly_minimal
+fallback_image_style: hero_768w
