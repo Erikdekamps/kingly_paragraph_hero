@@ -6,8 +6,8 @@ dependencies:
 name: hero_1920w
 label: 'Hero (1920w)'
 effects:
-  e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b:
-    uuid: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b
+  10a971db-8a60-465f-bdae-340a21d3c444:
+    uuid: 10a971db-8a60-465f-bdae-340a21d3c444
     id: focal_point_scale_and_crop
     weight: 1
     data:
