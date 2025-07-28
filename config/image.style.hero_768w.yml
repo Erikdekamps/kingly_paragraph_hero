@@ -6,8 +6,8 @@ dependencies:
 name: hero_768w
 label: 'Hero (768w)'
 effects:
-  860bee6e-8f4a-4dc6-afc4-da80c2cc78aeg:
-    uuid: 860bee6e-8f4a-4dc6-afc4-da80c2cc78aeg
+  4f1e2a5f-189d-4897-9946-36472cf65815:
+    uuid: 4f1e2a5f-189d-4897-9946-36472cf65815
     id: focal_point_scale_and_crop
     weight: 1
     data:
